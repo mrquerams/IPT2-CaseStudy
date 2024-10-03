@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+  }
+  
+  header {
+    background-color: #3498db; /* Blue header */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 1.5em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2em;
+  }
+  
+  .members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center members horizontally */
+  }
+  
+  .member {
+    width: 30%; /* Adjust as needed for responsiveness */
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    text-align: center;
+  }
+  
+  .member img {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    border-radius: 5px; /* Round image corners */
+    cursor: pointer;
+}
+  
+  .member h3 {
+    margin-top: 0.5em;
+    color: #3498db; /* Blue heading */
+  }
+
+  </style>
+</style>
+</head>
+<body>
+<header>
+  <h1>Homepage</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>Our Team</h2>
+  <div class="members">
+    <div class="member">
+      <a href="member1.html" target="_blank"><img src="kyle.jfif" alt="Member 1"></a>
+      <h3>Pamintuan</h3>
+    </div>
+    <div class="member">
+      <a href="member2.html" target="_blank"><img src="sum.jpg" alt="Member 2"></a>
+      <h3>Sumat</h3>
+    </div>
+    <div class="member">
+      <a href="member3.html" target="_blank"><img src="a.jpg" alt="Member 3"></a>
+      <h3>Soliman</h3>
+    </div>
+    <div class="member">
+      <a href="member4.html" target="_blank"><img src="m.jfif" alt="Member 4"></a>
+      <h3>Ramos</h3>
+    </div>
+    <div class="member">
+      <a href="member5.html" target="_blank"><img src="pat.jpg" alt="Member 5"></a>
+      <h3>Patdu</h3>
+    </div>
+    <div class="member">
+      <a href="member6.html" target="_blank"><img src="lap.jpg" alt="Member 6"></a>
+      <h3>Lapuz</h3>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
